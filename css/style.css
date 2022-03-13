@@ -14,7 +14,103 @@
 
 body {
   font-family: var(--main-font);
+  min-height: 100vh;
 }
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  background: var(--light-gray);
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  display: none;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.heading {
+  color: var(--dark-blue);
+}
+
+.heading__thin {
+  font-size: 1.75rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.heading__bold {
+  font-size: 1.65rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.heading__gray {
+  font-weight: 400;
+  font-size: 1.12rem;
+  letter-spacing: .5px;
+  line-height: 1.4;
+  color: var(--gray-blue);
+}
+
+.card {
+  border-top-width: 5px;
+  border-top-style:solid;
+  border-radius: .5rem;
+  padding: 1.85rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 255px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 1px var(--gray-blue);
+}
+
+.card__cyan {
+  border-top-color: var(--accent-cyan);
+}
+
+.card__red {
+  border-top-color: var(--accent-red);
+}
+
+.card__orange {
+  border-top-color: var(--accent-orange);
+}
+
+.card__blue {
+  border-top-color: var(--accent-blue);
+}
+
+.card-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin-bottom: .35rem;
+}
+
+.card-text {
+  color: var(--gray-blue);
+  line-height: 1.75;
+}
+
+.card-svg {
+  width: 22%;
+  align-self: flex-end;
+}
+
+/* .content-box {
+  columns: 3 auto;
+} */
 
 .attribution {
 	font-size: 11px;
