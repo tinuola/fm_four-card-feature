@@ -20,13 +20,13 @@ body {
 .site-wrapper {
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: 0 2rem;
   background: var(--light-gray);
 }
 
 .container {
   max-width: 375px;
-  margin: 0 auto;
+  margin: 7.5rem auto;
 }
 
 .sr-only {
@@ -36,6 +36,7 @@ body {
 header {
   text-align: center;
   margin-bottom: 5rem;
+  width: 320px;
 }
 
 .heading {
@@ -43,23 +44,41 @@ header {
 }
 
 .heading__thin {
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   font-weight: 200;
   margin-bottom: 1rem;
 }
 
 .heading__bold {
-  font-size: 1.65rem;
+  font-size: 1.55rem;
   font-weight: 600;
   margin-bottom: 1.25rem;
 }
 
 .heading__gray {
   font-weight: 400;
-  font-size: 1.12rem;
+  font-size: .9rem;
   letter-spacing: .5px;
   line-height: 1.4;
   color: var(--gray-blue);
+}
+
+@media (min-width: 768px){
+  header {
+    width: 375px;
+  }
+  
+  .heading__thin {
+    font-size: 1.95rem;
+  }
+
+  .heading__bold {
+    font-size: 1.85rem;
+  }
+
+  .heading__gray{
+    font-size: 1.12rem; 
+  }
 }
 
 .card {
@@ -72,6 +91,7 @@ header {
   flex-direction: column;
   height: 255px;
   margin-bottom: 2.5rem;
+  background: #fff;
   box-shadow: 0 2px 1px var(--gray-blue);
 }
 
@@ -112,11 +132,14 @@ header {
   columns: 3 auto;
 } */
 
-.attribution {
-	font-size: 11px;
-	text-align: center;
+footer {
+  align-self: flex-end;
 }
 
-.attribution a {
+.fm-attribution {
+	font-size: 12px;
+}
+
+.fm-attribution a {
 	color: hsl(228, 45%, 44%);
 }
