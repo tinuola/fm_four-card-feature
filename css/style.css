@@ -72,7 +72,7 @@ header {
 
 .heading__gray {
   font-weight: 400;
-  font-size: .9rem;
+  font-size: .9375rem;
   letter-spacing: .5px;
   line-height: 1.4;
   color: var(--gray-blue);
