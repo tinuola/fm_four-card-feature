@@ -8,7 +8,7 @@ Build out the feature section and get it looking as close to the design as possi
 - View the optimal layout for the site depending on their device's screen size
 
 ### Solution
-Live Site: [https://tinuola.github.io/fm-four-card-feature/](https://tinuola.github.io/fm-four-card-feature/)
+Live Site: [https://tinuola.github.io/fm_four-card-feature/](https://tinuola.github.io/fm_four-card-feature/)
 
 
 ### Tools
